@@ -13,10 +13,8 @@
 # limitations under the License.
 
 from datetime import time
-from pytz import timezone
-from trading_calendars.exchange_calendar_xtks import XTKSExchangeCalendar
+from trading_calendars.exchange_calendar_xmex import XMEXExchangeCalendar
 
-class TSEJExchangeCalendar(XTKSExchangeCalendar):
+class MEXIExchangeCalendar(XMEXExchangeCalendar):
 
-    name = "TSEJ"
-    tz = timezone("Japan")
+    name = "MEXI"
